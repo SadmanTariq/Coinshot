@@ -105,5 +105,4 @@ func steel_push_selected(flared=false):
 
 
 func self_push(push_origin: Vector2, strength):
-	print("self_push")
 	resultant_force += (global_position - push_origin).normalized() * strength
