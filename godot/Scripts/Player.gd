@@ -83,7 +83,6 @@ func flip():
 
 
 func throw_coin():
-	print("thrown at", (get_global_mouse_position() - position).angle())
 	var coin_instance = coin.instance()
 	owner.add_child(coin_instance)
 	coin_instance.position = position
@@ -94,7 +93,10 @@ func throw_coin():
 
 
 func steel_push_selected(flared=false):
-	var target = get_tree().get_nodes_in_group("selected")[0]
+	var selected_list = get_tree().get_nodes_in_group("selected")
+	if len(selected_list) == 0:
+		return
+	var target = selected_list[0]
 	var strength = steelpush_strength
 	if flared:
 		strength = steelpush_flare_strength
