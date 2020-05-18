@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/AllomanticLine.gd" type="Script" id=1]
+
+[node name="AllomanticLine" type="Line2D"]
+points = PoolVector2Array( 0, 0, 0, 0 )
+width = 4.0
+script = ExtResource( 1 )
+unselected_color = Color( 0.529412, 0.623529, 1, 0.694118 )
+selected_color = Color( 0.04, 0.232, 1, 0.811765 )
+unselected_width = 2
+selected_width = 4
+selected_group = "selected"
