@@ -26,11 +26,6 @@ func _ready():
 	weight = Vector2(0, mass * gravity_constant)
 
 
-func _process(delta):
-	if dead and Input.is_action_pressed("restart"):
-		get_tree().reload_current_scene()
-
-
 #func _input(event):
 #	if event.is_action_pressed("throw_coin"):
 #		throw_coin()

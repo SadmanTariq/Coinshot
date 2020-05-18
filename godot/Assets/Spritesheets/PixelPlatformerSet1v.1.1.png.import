@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/coin.png-b7fabe76c61e67396a7c0402e221b540.stex"
+path="res://.import/PixelPlatformerSet1v.1.1.png-0160dab80b26f3074f776052d3a9558e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/coin.png"
-dest_files=[ "res://.import/coin.png-b7fabe76c61e67396a7c0402e221b540.stex" ]
+source_file="res://Assets/Spritesheets/PixelPlatformerSet1v.1.1.png"
+dest_files=[ "res://.import/PixelPlatformerSet1v.1.1.png-0160dab80b26f3074f776052d3a9558e.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
