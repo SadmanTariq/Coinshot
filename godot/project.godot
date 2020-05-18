@@ -17,6 +17,7 @@ _global_script_class_icons={
 
 config/name="Coinshot"
 run/main_scene="res://Screens/World.tscn"
+config/icon="res://Assets/coin.png"
 
 [input]
 
